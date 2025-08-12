@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbaqusExtension.aElement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAgAAiIAEACiAAAAAAAAhAAAAAQBAAAEBIgA=</HashCode>
+      <FileName>aElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AbaqusExtension.aNode" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAgBAAAAIQAAACAAAAAQAAAABAAAEAAgA=</HashCode>
+      <FileName>aNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AbaqusExtension.aAssembly" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEA1AACAEQAAgRAAAEQQAAAFEAAAQAAAAEMQABFIMAA=</HashCode>
+      <FileName>aAssembly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaqusExtension.aElset" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAQAAAAEAAQAAAAEAAEAAAA=</HashCode>
+      <FileName>aElset.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AbaqusExtension.aNodeSet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEAAEAAAA=</HashCode>
+      <FileName>aNodeSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AbaqusExtension.aIO" Collapsed="true">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCABAAAAAQwAAAAAgAAAAAgAABAIAAQIAAAAAAAgA=</HashCode>
+      <FileName>aIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaqusExtension.aTow" Collapsed="true">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECICAgAAAAAiBIAAAySAgAFgAIIQwAIAEACABBAAgA=</HashCode>
+      <FileName>aTow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaqusExtension.aSection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAQAAAAAAAAQAAAAEACABAAAAAQAAAAFAAAA=</HashCode>
+      <FileName>aSection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AbaqusExtension.aMath" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>aMath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbaqusExtension.aOrientation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAIAQAAAAEAACgAQAAAAEBAAA=</HashCode>
+      <FileName>aOrientation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="AbaqusExtension.aPoint" Collapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAQAAAQEAAAAAAAAAABgAQAAYAE=</HashCode>
+      <FileName>aPoint.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AbaqusExtension.aArc" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoIgBADACAQgAAgAAAAAwAAAAAAAABAAAIBAAAJAgA=</HashCode>
+      <FileName>aArc.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="AbaqusExtension.aLine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACACAAgAAgAAAAAAAAAAAAAABAAAAAAAABAgA=</HashCode>
+      <FileName>aLine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Interface Name="AbaqusExtension.aIWritable" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>aIWritable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AbaqusExtension.aI2DcurveInSpace" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAgAAAAAAAAAAAAAAAAABAAAAAAAABAAA=</HashCode>
+      <FileName>aI2DcurveInSpace.cs</FileName>
+      <NewMemberFileName>aI2DCurveInSpace.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AbaqusExtension.aElementShape" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAgAAEAAAAAAAAAAAAAAEAAAAAEAAAA=</HashCode>
+      <FileName>aElementShape.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AbaqusExtension.aAbaqusInputLineTypes" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgA=</HashCode>
+      <FileName>aAbaqusInputLineTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AbaqusExtension.aAbaqusKeywords" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAAAAAAAgAAAgAAAAEAAAAAAAAIAAAAAEAAAA=</HashCode>
+      <FileName>aAbaqusKeywords.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AbaqusExtension.aElemTypes" Collapsed="true">
+    <Position X="2.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIJIAEqAAAAEQAEQIAgAAAAEAABAS9EAAAAAAAw=</HashCode>
+      <FileName>aElemTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AbaqusExtension.aCurveTypes" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAAA=</HashCode>
+      <FileName>aCurveTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AbaqusExtension.aAbaqusSectionType" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>aAbaqusSectionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

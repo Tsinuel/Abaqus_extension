@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AbaqusExtension.GUI.exe" version="2.0.0.17" publicKeyToken="6bcf1d6356c7d3fe" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AbaqusExtension.GUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AbaqusExtension.GUI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AbaqusExtension.dll" size="91648">
+      <assemblyIdentity name="AbaqusExtension" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IXN2CQ47bc9jWDJSXGn5PFzhr8WjOMwjF3Cb22Ql5ag=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AbaqusExtension.GUI.exe" size="90552">
+      <assemblyIdentity name="AbaqusExtension.GUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1O3+VZI9ZFuzObw1mxe7A3rywUnU6pHNuYl1BsU4Pc4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FSharp.Core.dll" size="1400480">
+      <assemblyIdentity name="FSharp.Core" version="4.3.1.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kpLrBr9M0QDJSr0pSaljUaDzcQAIZ0mTx0kdpXjh7eE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MathNet.Numerics.dll" size="1147904">
+      <assemblyIdentity name="MathNet.Numerics" version="3.4.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NHBBip9DhtXv2z5BXXu6z17rn8YWG2RG1HOYfP7opZg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MathNet.Numerics.FSharp.dll" size="436736">
+      <assemblyIdentity name="MathNet.Numerics.FSharp" version="3.4.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yX09hYPLl+s/15bOyeMjGqS7r5Hh8Ec9hdd7TFvFdng=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AbaqusExtension.GUI.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GUHS+OFx1101tsQAmSxc2HiZ6DFfxLEUn0Es0Znho/o=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ASL_4-PC\ASL_4" issuerKeyHash="38326ab86e68b171c2551a0d91d3288b992507bc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HXDBhyVdtVu9bWO+9RnHLuUPjg8ExQggEkhKy8VPHzA=</DigestValue></Reference></SignedInfo><SignatureValue>N4Js/iQod9h/xiTKmMazNGVuikE1pO7fUqMnX8qrjf9Su1781gYR9z9uplm4mb19ltiRovtwT97gnJT0N0B9I8kyAFBwaHlwa6Ztm+undEDZQIk1+XX0kXixkrer+sbwyHuxWL4Y3vblscLd15pwHTWBtAjztN8kyJfga2JEDAg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>q/qQrw8pPdTo2Wup8/B0apUbV3dJqOdRMyNL/FAqt1fJnb/QcEvhH3qGzjryiweTgxS9rgDCEp4olHWKT5nruX/SQxANbHIKCAd+cQDIwi7FO4lh1ZAdZoLSDP0jIU/clGbfMiSxbOjNcD2RJKuIN4DlcOGf1sNmaC+rU0IEyOc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="301f4fc5cb4a48122008c5040f8e0fe52ec719f5be636dbd5bb55d2587c1701d" Description="" Url=""><as:assemblyIdentity name="AbaqusExtension.GUI.exe" version="2.0.0.17" publicKeyToken="6bcf1d6356c7d3fe" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ASL_4-PC\ASL_4</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ejRC5kuvVBxujsjvo3pGrhG5TJxJb1bna8dhovyv8Kk=</DigestValue></Reference></SignedInfo><SignatureValue>kJfLLzfh1eN+IeUhDIX23kqCE+/XYAQnNs1hrUdKyxETr0vlRcwiQMabBrC+cmoZlbBAwKX56VGVImbPsbeqFPyynZUEb+8QPgXvMy+gPv2XYScQ8HqIXtKALGSM4ztQIHS4ESaOqLIGG8vclZnLf9yFlV6R1v1PHVsr4yc+sbI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>q/qQrw8pPdTo2Wup8/B0apUbV3dJqOdRMyNL/FAqt1fJnb/QcEvhH3qGzjryiweTgxS9rgDCEp4olHWKT5nruX/SQxANbHIKCAd+cQDIwi7FO4lh1ZAdZoLSDP0jIU/clGbfMiSxbOjNcD2RJKuIN4DlcOGf1sNmaC+rU0IEyOc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQOxmeXv1GtZ1Cp/YLKI8rkDANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQQBTAEwAXwA0AC0AUABDAFwAQQBTAEwAXwA0MB4XDTE2MDIwNTA2MTQyMVoXDTE3MDIwNDEyMTQyMVowJzElMCMGA1UEAx4cAEEAUwBMAF8ANAAtAFAAQwBcAEEAUwBMAF8ANDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAq/qQrw8pPdTo2Wup8/B0apUbV3dJqOdRMyNL/FAqt1fJnb/QcEvhH3qGzjryiweTgxS9rgDCEp4olHWKT5nruX/SQxANbHIKCAd+cQDIwi7FO4lh1ZAdZoLSDP0jIU/clGbfMiSxbOjNcD2RJKuIN4DlcOGf1sNmaC+rU0IEyOcCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCrDNTqatDXfHhHIVhJ3zpvIk88IdWdxkjdyk+T2qYTgPtv7b2V5QwDJxfC/sBOV0eFrxqriQJBS70+10ZjWpGwV5/CDVDVcyYHXdxxp6cvYngfrC5ws424K1FEQ4ioYlMpNkK4Dr9R7VmUGJb/wh5t24l2f4ZPrW3jAf9cl1hsUQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

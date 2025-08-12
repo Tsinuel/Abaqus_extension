@@ -1,0 +1,12 @@
+c:\users\asl_4\documents\visual studio 2015\Projects\AbaqusExtension\AbaqusExtension\bin\Debug\AbaqusExtension.dll
+c:\users\asl_4\documents\visual studio 2015\Projects\AbaqusExtension\AbaqusExtension\bin\Debug\AbaqusExtension.pdb
+c:\users\asl_4\documents\visual studio 2015\Projects\AbaqusExtension\AbaqusExtension\obj\Debug\AbaqusExtension.csprojResolveAssemblyReference.cache
+c:\users\asl_4\documents\visual studio 2015\Projects\AbaqusExtension\AbaqusExtension\obj\Debug\AbaqusExtension.dll
+c:\users\asl_4\documents\visual studio 2015\Projects\AbaqusExtension\AbaqusExtension\obj\Debug\AbaqusExtension.pdb
+C:\Users\ASL_4\Documents\Visual Studio 2015\Projects\AbaqusExtension\AbaqusExtension\bin\Debug\AbaqusExtension.XML
+C:\Users\Tsinu\Documents\Visual Studio 2015\Projects\AbaqusExtension\AbaqusExtension\bin\Debug\AbaqusExtension.XML
+C:\Users\Tsinu\Documents\Visual Studio 2015\Projects\AbaqusExtension\AbaqusExtension\bin\Debug\AbaqusExtension.dll
+C:\Users\Tsinu\Documents\Visual Studio 2015\Projects\AbaqusExtension\AbaqusExtension\bin\Debug\AbaqusExtension.pdb
+C:\Users\Tsinu\Documents\Visual Studio 2015\Projects\AbaqusExtension\AbaqusExtension\obj\Debug\AbaqusExtension.csprojResolveAssemblyReference.cache
+C:\Users\Tsinu\Documents\Visual Studio 2015\Projects\AbaqusExtension\AbaqusExtension\obj\Debug\AbaqusExtension.dll
+C:\Users\Tsinu\Documents\Visual Studio 2015\Projects\AbaqusExtension\AbaqusExtension\obj\Debug\AbaqusExtension.pdb
