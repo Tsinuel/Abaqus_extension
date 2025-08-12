@@ -28,22 +28,34 @@ Define tow properties:
 
 ![Define_tow_properties](./images/Tow_properties_windows.png)
 
+## Pre-compiled Installer
+
+A pre-compiled installable `.exe` is available in the [`./publish`](./publish) directory.  
+**To install and run the Abaqus_extension GUI or tools without building from source:**
+1. Download the latest `.exe` from the [`publish`](./publish) folder.
+2. Double-click the executable to launch the application.
+
 ## Directory Structure
 
 - `AbaqusExtension/` — Core library with classes for assembly, elements, mesh, and IO operations.
 - `AbaqusExtension_GUI/` — (Optional) GUI layer for interactive use, including resources and form logic.
+- `publish/` — Pre-built, installable `.exe` and related files for direct use.
 - `LICENSE` — MIT License.
 
 ## Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Tsinuel/Abaqus_extension.git
-   ```
-2. Open the solution in Visual Studio (2012 or 2015 recommended).
-3. Restore NuGet packages (MathNet.Numerics, FSharp.Core).
-4. Build the solution.
-5. Use the compiled libraries or the GUI (if present) to interact with Abaqus input files.
+1. **Option 1: Use Pre-compiled Installer**
+   - See [Pre-compiled Installer](#pre-compiled-installer) above.
+
+2. **Option 2: Build from Source**
+   - Clone the repository:
+     ```bash
+     git clone https://github.com/Tsinuel/Abaqus_extension.git
+     ```
+   - Open the solution in Visual Studio (2012 or 2015 recommended).
+   - Restore NuGet packages (MathNet.Numerics, FSharp.Core).
+   - Build the solution.
+   - Use the compiled libraries or the GUI (if present) to interact with Abaqus input files.
 
 ## License
 
