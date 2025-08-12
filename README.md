@@ -12,9 +12,21 @@ Abaqus_extension is a C# project designed to extend the functionality of the Aba
 
 ## Graphical User Interface (GUI)
 
-Main interface:
+Main interface (Orientation):
 
-![Main GUI Window](./images/Main_window_tab1.png)
+![Main GUI Window_tab1](./images/Main_window_tab1.png)
+
+Main interface (Periodic-boundary-condition (PBC)):
+
+![Main GUI Window_tab2](./images/Main_window_tab2.png)
+
+View mesh data:
+
+![View_mesh_data](./images/Mesh_data_window.png)
+
+Define tow properties:
+
+![Define_tow_properties](./images/Tow_properties_windows.png)
 
 ## Directory Structure
 
